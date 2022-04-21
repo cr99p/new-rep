@@ -351,6 +351,45 @@ body {
   color: #737373;
 }
 
+.container-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 80px;
+}
+.container-cards__items {
+  width: 328px;
+  height: 230px;
+  background-color: #fff;
+  padding: 35px 40px;
+  -webkit-box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+          box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+}
+.container-cards__items:not(:last-child) {
+  margin-right: 30px;
+}
+.container-cards__items:hover {
+  background-color: #00A0C1;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.container-cards__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  color: #252B42;
+  padding-top: 10.59px;
+}
+.container-cards__desc {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #737373;
+  padding-top: 10px;
+}
+
 /* Components */
 /* Browser specific styles */
 /**

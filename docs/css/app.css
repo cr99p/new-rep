@@ -324,11 +324,6 @@ body {
 }
 .header-bar__menu-link {
   color: #737373;
-  -webkit-transition: color 0.5s ease;
-  transition: color 0.5s ease;
-}
-.header-bar__menu-link:hover {
-  color: #737373;
 }
 
 .header-hero__title {

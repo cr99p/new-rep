@@ -39,12 +39,6 @@
 
     &__menu-link {
         color: $second-text-color;
-
-        transition: color .5s ease;
-
-        &:hover {
-            color: $second-text-color;
-        }
     }
 }
 

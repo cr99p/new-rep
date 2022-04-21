@@ -325,6 +325,12 @@ body {
 .header-bar__menu-link {
   color: #737373;
 }
+.header-bar__menu-link:hover {
+  color: #252B42;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  text-decoration: underline;
+}
 
 .header-hero__title {
   max-width: 509px;

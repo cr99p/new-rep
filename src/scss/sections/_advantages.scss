@@ -1,7 +1,7 @@
 .advantages {
     background-color: $page-back-color;
     min-height: 100vh;
-    margin-top: -84px;
+    margin-top: -90px;
 }
 
 .advantages-container {
@@ -24,13 +24,13 @@
     }
 
     &__desc {
-        margin-top: 10px;
-
         font-weight: 500;
         font-size: 14px;
         line-height: 20px;
         letter-spacing: 0.2px;
         color: $secondary-text-color;
+
+        margin-top: 10px;
 
         text-align: center;
     }
@@ -53,10 +53,7 @@
 
         background-color: $white;
 
-        &:not(:last-child) {
-            margin-right: 38px;
-        }
-
+        margin: 0 38px 0 38px;
         padding-top: 32px;
     }
 

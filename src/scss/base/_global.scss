@@ -36,12 +36,12 @@ body {
     }
 
     &--secondary {
-        color: $second-button-color;
-        border-color: $second-button-color;
+        color: $secondary-button-color;
+        border-color: $secondary-button-color;
 
         &:hover {
             color: $white;
-            background-color: $second-button-color;
+            background-color: $secondary-button-color;
         }
     }
 }

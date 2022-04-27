@@ -40,7 +40,7 @@
     }
 
     &__menu-link {
-        color: $second-text-color;
+        color: $secondary-text-color;
         
         &:hover {
             color: $primary-text-color;
@@ -74,22 +74,23 @@
 
         margin: 35px 0;
 
-        color: $second-text-color;
+        color: $secondary-text-color;
     }
 }
 
 .container-cards {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     row-gap: 15px;
-
+    
     margin-top: 90px;
 
     cursor: default;
 
     &__items {
         width: 328px;
-        height: 218px;
+        height: 210px;
         background-color: $white;
 
         padding: 35px 20px 35px 40px;
@@ -99,9 +100,10 @@
         }
 
         box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+        transition: all 0.5s ease;
 
         &:hover {   
-            background-color: $second-button-color;
+            background-color: $secondary-button-color;
             transition: all 0.5s ease;
 
             * {
@@ -127,7 +129,7 @@
         font-size: 14px;
         line-height: 20px;
         letter-spacing: 0.2px;
-        color: $second-text-color;
+        color: $secondary-text-color;
 
         padding-top: 10px;
     }
